@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { useEffect } from 'react'
-import { useUser } from '../context/userContext'
-import firebase from '../firebase/clientApp'
+import { useUser } from 'context/userContext'
+import firebase from 'firebase/clientApp'
 
 export default () => {
   // Our custom hook to get context values
